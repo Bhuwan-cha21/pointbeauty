@@ -229,8 +229,8 @@ li{
     flex-direction: column;
     align-content: center;
     border:2px solid red;
-    margin-left:70vh;
-    margin-right:82vh;
+     margin-left:70vh;
+    margin-right:82vh; 
     background-color:rgba(58, 40, 40, 0.9);
 }
 .ifrom{
@@ -247,8 +247,8 @@ footer{
 @media only screen and (max-width: 600px) {
     .service-list{
         flex-direction: column;
-        margin-left:10px;
-        margin-right:10px;
+         margin-left:10px;
+        margin-right:10px; 
     }
     .service{
         width:100%;
@@ -280,5 +280,16 @@ footer{
     }
     .s3 .s3topbar{
         text-decoration: none;
+    }
+    .form{
+        margin-left:0;
+        margin-right:0; 
+        
+    }
+    .form .iform{
+        /* margin-left:1vh; */
+    }
+    footer h1{
+        font-size:40px;
     }
   }
