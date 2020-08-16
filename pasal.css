@@ -257,8 +257,11 @@ footer{
         width:60%;
         border:2px solid white;
         border-radius: 10px;
-        margin-left:15vh;
+        margin-left:12vh;
        
+    }
+    .service button{
+        margin-left:8vh;
     }
     .service{
         margin-top:2vh;
