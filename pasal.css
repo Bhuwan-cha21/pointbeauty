@@ -121,6 +121,8 @@ a{
     width:33%;
     border:2px solid red;
     border-radius: 10px;
+    display:flex;
+    flex-direction: column;
 }
 /* #service1{
     transform:translateX(8px);
@@ -250,15 +252,28 @@ footer{
          margin-left:10px;
         margin-right:10px; 
     }
+    .service img{
+        height:30vh;
+        width:60%;
+        border:2px solid white;
+        border-radius: 10px;
+        margin-left:15vh;
+       
+    }
     .service{
         width:100%;
         height:auto;
+        border:none;
+    
     }
     .service h3{
         font-size:50px;
     }
+    .service ul{
+        list-style-type: disc;
+    }
     .service ul li{
-        font-size:40px;
+        font-size:5vw;
         color:rgba(255, 255, 255, 0.623);
         margin:0;
     }
@@ -281,6 +296,7 @@ footer{
     .s3 .s3topbar{
         text-decoration: none;
     }
+    
     .form{
         margin-left:0;
         margin-right:0; 
